@@ -1,0 +1,54 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+}
+p {
+    font-size: 11px !important;
+}
+/* Start navbar */
+.navbar{
+    background-color: var(--dark-color);
+}
+.nav-link {
+    color: var(--section-color);
+}
+.nav-link:focus,.nav-link:hover,.nav-link.active{
+    color: var(--green-color) !important;
+}
+.search {
+    color: var(--green-color);
+}
+.search::before {
+    content: "";
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+/* End navbar */
+/* Start Loading */
+.loading {
+    background-color: var(--dark-color);
+    height: 100vh;
+}
+/* End Loading */
+.title-sec::after {
+    content: "";
+    border-bottom: 2px solid var(--green-color);
+    width: 80px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon {
+    color: var(--green-color);
+}
+.number-sec {
+    font-size: 150px;
+    color: rgb(0, 0, 0,.1);
+}
+.icoon {
+    left: -10%;
+}
