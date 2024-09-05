@@ -9,7 +9,7 @@ body{
 p {
     font-size: 11px !important;
 }
-.navbar{
+.navbar,.btn-main{
     background-color: var(--dark-color);
 }
 .nav-link {
@@ -84,4 +84,18 @@ li {
 }
 .start-pro {
     background-color: var(--dark-color);
+}
+input[type=email] {
+    border: none;
+    color: var(--section-color) !important;
+}
+::placeholder{
+    color: var(--section-color) !important;
+}
+footer {
+    background-color: var(--dark-color);
+}
+.media div {
+    width: 30px;
+    height: 30px;
 }
